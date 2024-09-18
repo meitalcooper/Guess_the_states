@@ -8,7 +8,7 @@ screen.title("U.S  States Game")
 image = "blank_states_img.gif"
 screen.addshape(image)
 turtle.shape(image)
-screen.textinput(title="Educate Yourself" , prompt="enter all the sataes you know.\n to reveal the states you don't know enter : 'exit' \n press enter to start the game")
+screen.textinput(title="Guess The States!" , prompt="enter all the sataes you know.\n to reveal the states you don't know enter : 'exit' \n press enter to start the game")
 
 data = pandas.read_csv("50_states.csv")
 states_list = data.state.to_list()
